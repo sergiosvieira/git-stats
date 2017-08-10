@@ -1,7 +1,7 @@
 # Git-stats
 This script generates a monthly time serie of git's commits.
 
-h2 Samples
+## Samples
 =======
 1. Show all monthly commits of specified author in current year
 ```bash
