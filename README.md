@@ -1,8 +1,8 @@
 # Git-stats
 This script generates a monthly time serie of git's commits.
+Tested with git version 2.12.2.windows.2
 
 ## Samples
-=======
 1. Show all monthly commits of specified author in current year
 ```bash
 $ ./git-st.sh Sergio
@@ -20,8 +20,8 @@ $ ./git-st.sh Sergio
 01/12/2017 0
 ```
 2. Show all monthly commits of specified author after specified year
-$ ./git-st.sh Sergio 2016
 ```bash
+$ ./git-st.sh Sergio 2016
 01/01/2016 16
 01/02/2016 15
 01/03/2016 3
@@ -49,8 +49,8 @@ $ ./git-st.sh Sergio 2016
 ```
 
 3. Show all monthly commits of specified author between specified years
-$ ./git-st.sh Sergio 2015 2016
 ```bash
+$ ./git-st.sh Sergio 2015 2016
 01/01/2015 24
 01/02/2015 55
 01/03/2015 31
